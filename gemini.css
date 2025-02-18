@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #1b1c30;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background-color: #2a2b38;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Alinha os itens no centro */
+}
+
+.login-container img {
+    width: 80px;
+    margin-bottom: 20px;
+}
+
+.login-container h1 {
+    color: #ffff;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.login-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2a2b38;
+    color: #ffff;
+    font-size: 14px;
+    outline: none;
+    border: 1px solid #444;
+}
+
+.login-container input::placeholder {
+    color: #888;
+}
+
+.login-container a {
+    color: aquamarine; /* Cor dos links dentro do formulário (branco) */
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.login-container a:hover {
+    text-decoration: underline;
+}
+
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #75c778;
+    color: #ffff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.login-container button:hover {
+    background-color: #65b168;
+}
+
+.login-container p {
+    color: #ffff;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/* Links de navegação */
+.nav-links {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center; 
+    width: 100%; 
+    gap: 15px; 
+}
+
+.nav-links .nav-link {
+    color: #767d85; /* Cor dos links de navegação */
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.nav-links .nav-link:hover {
+    text-decoration: underline;
+}
